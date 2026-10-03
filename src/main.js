@@ -324,23 +324,107 @@ app.innerHTML = `
     <!-- PARTNERS -->
     <section class="view simple-view" id="partnersView">
 
-      <button class="back-button" data-home>←</button>
+  <button class="back-button" data-home>←</button>
 
-      <div class="simple-icon">🤝</div>
+  <div class="simple-icon">🤝</div>
 
-      <span>BUSINESS</span>
+  <span>BUSINESS</span>
 
-      <h1>Hamkorlar</h1>
+  <h1>Hamkorlar</h1>
 
-      <p>
-        Biz bilan hamkorlik qilish uchun bog'laning.
-      </p>
+  <p>
+    Biz bilan hamkorlik qilish uchun bog‘laning.
+  </p>
 
-      <button class="soon-button">
-        Bog'lanish →
-      </button>
+ <button class="soon-button" data-page="partnership">
+  🤝 Hamkorlik uchun →
+</button>
 
-    </section>
+</section>
+
+<section class="view simple-view" id="partnershipView">
+
+  <button class="back-button" data-page="partners">←</button>
+
+  <div class="simple-icon">🤝</div>
+
+  <span>PARTNERSHIP</span>
+
+  <h1>Hamkorlik uchun</h1>
+
+  <p>
+    Hamkorlik, reklama va boshqa takliflar uchun biz bilan bog‘laning.
+  </p>
+
+  <div class="game-preview">
+
+    <div>📱</div>
+
+    <b>Telegram</b>
+
+    <small>@mu4ammadjon</small>
+
+    <button
+      class="soon-button"
+      onclick="window.open('https://t.me/mu4ammadjon', '_blank')"
+    >
+      Telegram → 
+    </button>
+
+  </div>
+
+  <div class="game-preview">
+
+    <div>📸</div>
+
+    <b>Instagram</b>
+
+    <small>@ron_cbr</small>
+
+    <button
+      class="soon-button"
+      onclick="window.open('https://instagram.com/ron_cbr', '_blank')"
+    >
+      Instagram →
+    </button>
+
+  </div>
+
+  <div class="game-preview">
+
+    <div>📞</div>
+
+    <b>Telefon</b>
+
+    <small>+998 95 933 43 33</small>
+
+    <button
+      class="soon-button"
+      onclick="window.location.href='tel:+998959334333'"
+    >
+      Qo‘ng‘iroq qilish →
+    </button>
+
+  </div>
+
+  <div class="game-preview">
+
+    <div>✉️</div>
+
+    <b>Email</b>
+
+    <small>r4zexxx@gmail.com</small>
+
+    <button
+      class="soon-button"
+      onclick="window.location.href='mailto:r4zexxx@gmail.com'"
+    >
+      Email yuborish →
+    </button>
+
+  </div>
+
+</section>
 
     <!-- GAMES -->
     <section class="view simple-view games-page" id="gamesView">
